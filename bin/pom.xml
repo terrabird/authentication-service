@@ -35,38 +35,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- Start: Dependencies added by Praveer -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-cache</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.terrabird</groupId>
-            <artifactId>terrabird-persistence-layer</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-		    <groupId>io.jsonwebtoken</groupId>
-		    <artifactId>jjwt</artifactId>
-		    <version>0.9.0</version>
-		</dependency>
-		<!-- <dependency>
-			<groupId>commons-codec</groupId>
-			<artifactId>commons-codec</artifactId>
-			<version>${commons.release.version}</version> 
-		</dependency>-->
-        <!-- End: Dependencies added by Praveer -->
 	</dependencies>
 
 	<build>
