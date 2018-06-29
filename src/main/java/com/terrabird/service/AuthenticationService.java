@@ -136,12 +136,12 @@ public class AuthenticationService {
 	  //TODO: Currently validating only the timeout set, need to validate other parameters of the session token
 	  if (nowMillis <= expInMil + sessionTimeout)
 	  {
-		  log.info("Valid Sesstion Token ");		  
+		  log.info("Valid Session Token ");		  
 		  return true; 
 	  }		 
 	  else
 	  {
-		  log.info("Invalid Sesstion Token or expired ");
+		  log.info("Invalid Session Token or expired ");
 		  return false;
 	  }	  
 	  
