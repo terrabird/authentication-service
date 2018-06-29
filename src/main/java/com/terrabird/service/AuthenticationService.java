@@ -127,11 +127,6 @@ public class AuthenticationService {
       log.info("Claims Issuer:" + claims.getIssuer());
       log.info("Claims Expiration:" + claims.getExpiration());
 	  
-	  /*System.out.println("ID: " + claims.getId());
-	  System.out.println("Subject: " + claims.getSubject());
-	  System.out.println("Issuer: " + claims.getIssuer());
-	  System.out.println("Expiration: " + claims.getExpiration());*/
-	  
 	  long nowMillis = System.currentTimeMillis();
 	  //log.info("current time : " + nowMillis);
 	  long expInMil = claims.getExpiration().getTime();
